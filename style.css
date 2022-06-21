@@ -74,9 +74,9 @@ iframe{
      background: tomato;
 }
 .card{
-    background:white;
+    background:gold;
     padding: 1em;
     margin:1.5em;
     border-radius: 12px;
-    color:black;
+    color:black; 
 }
