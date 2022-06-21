@@ -40,6 +40,7 @@ body{
 }
 body h1:hover{
     color:#02FF77;
+    font-size: 3em;
 }
 .body h2.sub-heading{
     margin-top: 0.4em;
