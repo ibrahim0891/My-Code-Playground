@@ -73,3 +73,10 @@ iframe{
      transform: rotate(360deg);
      background: tomato;
 }
+.card{
+    background:white;
+    padding: 1em;
+    margin:1.5em;
+    border-radius: 12px;
+    
+}
