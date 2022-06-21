@@ -1,6 +1,7 @@
 *{
     font-weight: 400;
     transition: all 0.6s;
+    font-family: roboto;
 }
 body{
     background: #333;
