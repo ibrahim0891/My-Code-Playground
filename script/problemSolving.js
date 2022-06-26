@@ -119,14 +119,36 @@ var codeTitle = "Bubble sort"
 // var array = [9, 1, -6, 3, 75, 33,-77, 5, 3]
 // console.log(bubbleSort(array))
 
-var state = ' work in prograss'
-var comment = 'Sub set pf string'
 
-var str = 'dog'
+var comment = "Reversed Number Table"
+// var array = []
+// var array2 = []
+// var k = -1
+// for (let i = 100; i > 0; i--) {
+//     if (i%5 == 0){
+//         array.push([])
+//         k++
+//         array2.push(k)
+//     }
+//     array[array2[k]].push(i)
+// }
 
-console.log(str.slice(0,2))
+// for (let i = 0; i < array.length; i++) {
+//     console.log(array[i].join("    "))
+// }
 
-for (var i = 0; i < str.length+1; i++) {
-   console.log(str.slice(0,i))
-}
 
+var comment = "Factor of given number in a array"
+// var n = [38,782,72,27]
+// function printFactor(n){
+//     var array = []
+//     for (var i = 0; i < n+1; i++) {
+//         if (n%i==0){
+//             array.push(i)
+//         }
+//     }
+//     console.log(array)
+// }
+// for (var i = 0; i < n.length; i++) {
+//     printFactor(n[i])
+// }
