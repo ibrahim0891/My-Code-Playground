@@ -4,24 +4,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>My First Page</title>
+<title>My Js Playground</title>
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.tailwindcss.com"> </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="bg-white">
+<body class="bg-white w-full">
 
-<div class="shadow-lg rounded-md p-8 flex  justify-between items-center">
-     <i class="fa fa-bars text-2xl"></i>
-     <i class="fa fa-search text-2xl"></i>
-</div>
-<img src="food.jpg">
-<div class=" m-8 bg-rose-500 text-white rounded-lg p-8 text-center">
-    This is a div, This is an updateupdate thi& wykkk show in githubgithubi8
+<div class="border-b w-full text-blue-500 p-3 text-lg flex justify-between items-center" style="z-index: 9999;">
+    <i class="fa fa-bars"></i>
+    <h1 class="font-semibold text-xl">Fan Controler</h1>
+    <button id="switch" value="off" class="text-3xl fa fa-toggle-on"></button>
 </div>
 
-<script src='index.js'> </script>
+<div class="bg-teal text-center p-6 h-[40vh] flex items-center justify-center ">
+    <img src="fan.png" id="fan" class="w-2/3" alt="fan.png">
+   <!--  <div id='fan' class="text-center"> <i class="text-[6em] fa fa-fan"></i></div> -->
+</div>
+
+
+
+<script src='/cscript/problemSolving.js'> </script>
+<script src="index.js">index.js</script>
 </body>
 
 </html>

@@ -75,7 +75,7 @@ if ((age>= 15 && age <= 20) && (vaccinCount == 2))  {
     sentMessage("SMS","You have taken two doses of vaccin successfully")
 }
 **/
-var codeTitle = "Bubble sort"
+var codeTitle = "Sort Number Array"
 
 // function bubbleSort(array){
 //     function sortArray(userInput){
@@ -116,7 +116,7 @@ var codeTitle = "Bubble sort"
 //     return array
 // }
 
-// var array = [9, 1, -6, 3, 75, 33,-77, 5, 3]
+// var array = [2,3,5,8,9,12,21,15,20,2.3,9,10,12,13,17,18,15]
 // console.log(bubbleSort(array))
 
 
@@ -152,3 +152,4 @@ var comment = "Factor of given number in a array"
 // for (var i = 0; i < n.length; i++) {
 //     printFactor(n[i])
 // }
+
