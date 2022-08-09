@@ -153,3 +153,45 @@ var comment = "Factor of given number in a array"
 //     printFactor(n[i])
 // }
 
+var comment = "Bubble sort"
+// function bubbleSort(array){
+//     function sortArray(userInput){
+//         var array = userInput
+//         for (var i = 0; i < array.length; i++) {
+//             if (array[i] > array[i+1]) {
+//                 var temp1 = array[i+1]
+//                 var temp2 = array[i]
+//                 array[i] = temp1
+//                 array[i+1] = temp2
+//             }
+//         }
+//         return array
+//     }
+//     function checkError(array){
+//         var error = true
+//         for (var i = 0; i <array.length; i++) {
+//             if(array[i] > array[i+1]){
+//                 var error = true
+//                 break
+//             }
+//             else{
+//                 var error = false 
+//             }
+//         }
+//         return error
+//     }
+//     var test = true
+//     while (test) {
+//         var check = checkError(array)
+//         if(check==true){
+//             var array = sortArray(array)
+//         }
+//         else {
+//             var test = false
+//         }
+//     }
+//     return array
+// }
+
+// var array = [2,3,5,8,9,12,21,15,20,2.3,9,10,12,13,17,18,15]
+// console.log(bubbleSort(array))

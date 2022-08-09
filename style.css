@@ -13,14 +13,25 @@ body{
 
 @keyframes spin{
     from{
-        transform: rotate(0deg);
+        transform: rotate(0deg) ;
         transform-origin: center;
+        
     }
     to{
-        transform: rotate(-360deg);
+        transform: rotate(360deg);
         transform-origin: center;
     }
 }
 #fan {
-    animation: spin 3s infinite linear ;
+    animation: spin 0s infinite linear ;
+    max-width: 120px;
+}
+.flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+input[type="range"]{
+    width:90%;
 }

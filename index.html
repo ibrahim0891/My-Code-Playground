@@ -7,6 +7,8 @@
 <title>My Js Playground</title>
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.tailwindcss.com"> </script>
+<script src="/tailwind-3.js"></script>
+<link rel="stylesheet" href="/fa-v6/css/all.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -15,18 +17,28 @@
 <div class="border-b w-full text-blue-500 p-3 text-lg flex justify-between items-center" style="z-index: 9999;">
     <i class="fa fa-bars"></i>
     <h1 class="font-semibold text-xl">Fan Controler</h1>
-    <button id="switch" value="off" class="text-3xl fa fa-toggle-on"></button>
+   
 </div>
 
-<div class="bg-teal text-center p-6 h-[40vh] flex items-center justify-center ">
+<div class="bg-teal text-center p-6 flex items-center justify-center ">
     <img src="fan.png" id="fan" class="w-2/3" alt="fan.png">
-   <!--  <div id='fan' class="text-center"> <i class="text-[6em] fa fa-fan"></i></div> -->
+</div>
+<div class="text-center text-blue-500 ">
+     <button id="switch" value="off" class="mb-3 text-5xl fa fa-toggle-off"></button>
+    <input type="range" min="100" max="7000" id="regulator">
 </div>
 
+<div class="bg-teal text-center p-6 flex items-center justify-center ">
+    <img src="fan.png" id="fan2" class="w-2/3" alt="fan.png">
+</div>
+<div class="text-center text-blue-500 ">
+     <button id="switch2" value="off" class="mb-3 text-5xl fa fa-toggle-off"></button>
+    <input type="range" min="100" max="7000" id="regulator2">
+</div>
 
 
 <script src='/cscript/problemSolving.js'> </script>
-<script src="index.js">index.js</script>
+<script src="objectOrientedFanControlingSystem.js">index.js</script>
 </body>
 
 </html>
