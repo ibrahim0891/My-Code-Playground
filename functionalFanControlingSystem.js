@@ -31,7 +31,7 @@ function changeFanSpeed() {
     if (speed >= midPoint){
         refSpeed = (maxSpeed+minSpeed) - speed
         fan.style.animationDuration = refSpeed+"ms"
-        console.log("Upper half speed ratep",refSpeed,regulator.value)
+        console.log("Upper half speed rate:",refSpeed,regulator.value)
     }
     if(speed < midPoint){
         refSpeed = (maxSpeed+minSpeed) - speed

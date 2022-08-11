@@ -22,7 +22,7 @@ body{
         transform-origin: center;
     }
 }
-#fan {
+#fan,#fan2,#fan3{
     animation: spin 0s infinite linear ;
     max-width: 120px;
 }

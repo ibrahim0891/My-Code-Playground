@@ -24,18 +24,25 @@
     <img src="fan.png" id="fan" class="w-2/3" alt="fan.png">
 </div>
 <div class="text-center text-blue-500 ">
-     <button id="switch" value="off" class="mb-3 text-5xl fa fa-toggle-off"></button>
-    <input type="range" min="100" max="7000" id="regulator">
+     <button id="switch" value="off" class="mb-3 text-5xl fa fa-toggle-off" onclick="execute()"></button>
+    <input type="range" min="100" max="7000" id="regulator" onchange="executeRegulator()">
 </div>
 
 <div class="bg-teal text-center p-6 flex items-center justify-center ">
     <img src="fan.png" id="fan2" class="w-2/3" alt="fan.png">
 </div>
 <div class="text-center text-blue-500 ">
-     <button id="switch2" value="off" class="mb-3 text-5xl fa fa-toggle-off"></button>
-    <input type="range" min="100" max="7000" id="regulator2">
+     <button id="switch2" value="off" class="mb-3 text-5xl fa fa-toggle-off" onclick="execute2()"></button>
+    <input type="range" min="100" max="7000" id="regulator2" onchange="executeRegulator2()">
 </div>
 
+<div class="bg-teal text-center p-6 flex items-center justify-center ">
+    <img src="fan.png" id="fan3" class="w-2/3" alt="fan.png">
+</div>
+<div class="text-center text-blue-500 ">
+    <button id="switch3" value="off" class="mb-3 text-5xl fa fa-toggle-off" onclick="execute3()"></button>
+    <input type="range" min="100" max="7000" id="regulator3" onchange="executeRegulator3()">
+</div>
 
 <script src='/cscript/problemSolving.js'> </script>
 <script src="objectOrientedFanControlingSystem.js">index.js</script>
